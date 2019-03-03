@@ -44,7 +44,7 @@ class Field extends Component {
       });
       return;
     }
-    // Has not been guessed
+    // Has not been guessed test
     var newGuessedList = this.state.guessed;
     newGuessedList.push(image);
     this.setState({
